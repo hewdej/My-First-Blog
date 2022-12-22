@@ -1,0 +1,127 @@
+body{
+    display: grid;
+    padding: 0%;
+    margin: 30px;
+}
+
+/* Header/Blog header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(247, 107, 107);
+}
+
+h1{
+    display: flex;
+    font-size: 14;
+    margin: 15px;
+}
+
+h2{
+    display: grid;
+    justify-content: center;
+    background-color:rgb(7, 86, 96);
+    padding: 25px; 
+    margin: 0%;
+}
+
+/* style list item */
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 30px;
+}
+
+/* style unordered list item */
+.nav a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+}
+
+/* rotate list item 3deg */
+.nav a:hover{
+    color: blueviolet;
+    transform: rotate(3deg);
+}
+
+.nav li{
+    margin-left: 25px;
+}
+
+/* box components */
+#Flowers{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(251, 186, 186);
+    padding: 3% 5%;
+    gap: 25px   
+}
+
+/* style footer */
+.footer{
+    background-color:rgb(7, 86, 96);
+    font-style: normal;
+    padding: 15px;
+}
+    
+#author {
+    padding: 15px;
+    margin-top: 5px;
+    background-color: rgb(231, 118, 118) 
+}
+.author-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 45px;
+    float: right;
+}
+
+.about span{
+    font-family:  monospace;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* about me paragraph line-height */
+.about p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6rem;
+}
+
+.contact span{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.contact button{
+    background-color: rgb(224, 159, 159);
+    color: rgb(3, 3, 3);
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: .5rem;
+}
+
+.socials span{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* styling socials selector */
+.socials button {
+    background-color: rgb(224, 159, 159);
+    color: rgb(3, 3, 3);
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: .5rem;
+}
+

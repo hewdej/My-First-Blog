@@ -1,0 +1,83 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;  
+    padding: 20px;
+}
+
+/* Blog Header */
+.header{
+    display: flex;
+    padding: 7px 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 132, 132);
+}  
+
+h3{
+    display: grid;
+    background-color: rgb(7, 86, 96);
+    padding: 25px; 
+    margin: 0; 
+    font-family:'Courier New', Courier, monospace;
+    justify-content: center;
+}
+
+/* style unordered list item */
+.nav a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: all .3s ease-out;
+}
+
+/* rotate list item 3deg */
+.nav a:hover{
+    color: blue;
+    transform: rotate(3deg);
+}
+
+/* style list item */
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+/* space between home, shop, about, and contact */
+.nav li{
+    margin-left: 25px;
+}
+
+/* image of flower */
+.picture{
+    display: grid;
+    max-width: 700px;
+    height: 1fr;
+    margin: 20px auto; 
+}
+
+.picture img {
+    max-width: 700px;
+}
+
+.overlay-text{
+    font-size: 30px;
+    padding: 5px;  
+}
+
+/* Centered text */
+.centered{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    bottom: 70%;
+    transform: translate(-50%, -50%);
+}
+ 
+.footer{
+    display: flex;
+    background-color: rgb(17, 86, 118);
+    justify-content: center;  
+}
